@@ -5,55 +5,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi Página Web</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no",  minimum-scale=1.0>
-    <link rel="stylesheet" href="slider.css">
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="fonts.css">
+    
+
 </head>
 <body>
-    <div class="slider">
-        <div class="slide-track">
-            <div class="slide">
-                <img src="sony 30075.png" alt="">
-            </div>
-            <div class="slide">
-                <img src="sap.png" alt="">
-            </div>
-            <div class="slide">
-                <img src="samsing 300.png" alt="">
-            </div>
-            <div class="slide">
-                <img src="ora c l e.png" alt="">
-            </div>
-            <div class="slide">
-                <img src="microsoft 2.png" alt="">
-            </div>
-            <div class="slide">
-                <img src="intel 2.png" alt="">
-            </div>
-            <div class="slide">
-                <img src="ibm 2.png" alt="">
-            </div>
-            
-                    <div class="slide">
-                <img src="sony 30075.png" alt="">
-            </div>
-            <div class="slide">
-                <img src="sap.png" alt="">
-            </div>
-            <div class="slide">
-                <img src="samsing 300.png" alt="">
-            </div>
-            <div class="slide">
-                <img src="ora c l e.png" alt="">
-            </div>
-            <div class="slide">
-                <img src="microsoft 2.png" alt="">
-            </div>
-            <div class="slide">
-                <img src="intel 2.png" alt="">
-            </div>
-            <div class="slide">
-                <img src="ibm 2.png" alt="">
-            </div>
+    <div class="main">
+		<div class="slides">
+			<img src="img/gabine t e chat.jpg" alt="">
+			<img src="img/servi ci o w e b.jpg" alt="">
+			<img src="img/soporte tecnico.jpg" alt="">
 		</div>
 	</div>
+    
+    <script src="http://code.jquery.com/jquery-1.9.1.min.js"> </script>
+    <script src="js/jquery.slides.js"> </script>
+    <script>
+     $(function(){
+  $(".slides").slidesjs({
+    play: {
+      active: true,
+        // [boolean] Generate the play and stop buttons.
+        // You cannot use your own buttons. Sorry.
+      effect: "slide",
+        // [string] Can be either "slide" or "fade".
+      interval: 3000,
+        // [number] Time spent on each slide in milliseconds.
+      auto: true,
+        // [boolean] Start playing the slideshow on load.
+      swap: true,
+        // [boolean] show/hide stop and play buttons
+      pauseOnHover: false,
+        // [boolean] pause a playing slideshow on hover
+      restartDelay: 2500
+        // [number] restart delay on inactive slideshow
+    }
+  });
+});
+        </script>
 </body>
 </html>                     
