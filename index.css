@@ -1,0 +1,28 @@
+        body{
+        margin: 0px;
+        padding: 0px;
+        background: #313131;
+    }
+
+    .slider {
+width: 800px;
+height: 800px;
+background: url(1hombres.jpg);
+margin: 100px auto;
+animation: slide 21s infinite;
+    }
+@keyframes slide{
+    25%{
+        background: url(2sobretinaceraJehova.jpg);
+    }
+    
+        50%{
+        background: url(3obraajuicio.jpg);
+    }
+        75%{
+        background: url(425septiembre.jpg);
+    }
+        100%{
+        background: url(5porqueselevantaran.jpg);
+    }
+}
