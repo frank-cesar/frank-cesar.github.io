@@ -4,11 +4,11 @@
     font-family: lato;
 }
 
-h2 {
+/*h2 {
     text-align: center;
     font-size: 2rem;
     padding-top: 50px;
-}
+}*/
 
 .slider-frame {
 	width: 1280px;
@@ -22,7 +22,7 @@ h2 {
 	padding: 0;
 	width: 400%;
 	
-	animation: slide 10s infinite alternate ease-in-out;
+	animation: slide 20s infinite alternate ease-in-out;
 }
 
 .slider-frame li {
